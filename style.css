@@ -1,0 +1,87 @@
+body {
+	font-family: Arial, sans-serif;
+	margin:10;
+	padding: 10;
+	background: linear-gradient(to right, #f32f2f, #f0ebdd, #cf2a15, #ebf0ee, #417cff);
+	background-image: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=600)
+	background-size cover;
+	background-position: center;
+}
+
+header {
+	background: linear-gradient(to right, #481aee, #201ddd, #4144ff, #2405ac, #417cff);
+
+	color: #eb5252;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #6b1c1c;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type=submit] {
+	background-color: linear-gradient(to right , #481aee, #201ddd, #4144ff, #2405ac, #417cff);
+	color: #ec9d9d;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #943333;
+}
